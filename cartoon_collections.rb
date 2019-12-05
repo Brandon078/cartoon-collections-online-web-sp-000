@@ -20,4 +20,5 @@ def find_the_cheese(cheese)
   cheese = %w["cheddar", "gouda", "camembert"]
   cheese.collect do |cheesy|
     cheese.include?(cheesy)
+  end
 end
