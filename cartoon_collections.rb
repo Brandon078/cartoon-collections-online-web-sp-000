@@ -18,7 +18,7 @@ end
 
 def find_the_cheese(cheese_arrays)
   cheese = %w[cheddar gouda camembert]
-  cheese.collect do |cheesy|
+  cheese_arrays.collect do |cheesy|
     cheese_arrays.include?(cheesy)
   end
 end
