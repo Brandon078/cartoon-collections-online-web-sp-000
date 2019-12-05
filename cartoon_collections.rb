@@ -21,4 +21,3 @@ def find_the_cheese(cheese_arrays)
     cheese.include?(cheesy)
   end
 end
-
